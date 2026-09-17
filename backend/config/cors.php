@@ -3,7 +3,7 @@
  return [
     'paths' => ['api/*', 'sanctum/crsf-cookie'],
     'allowed_methods' => ['*'],
-    'allowed_origins' => ['https://meedahbakes.vercel.app'],
+    'allowed_origins' => ['https://meedahbakes-puce.vercel.app'],
     'allowed_origin_patterns' => [],
     'allowed_headers' => ['*'],
     'exposed_headers' => [],
