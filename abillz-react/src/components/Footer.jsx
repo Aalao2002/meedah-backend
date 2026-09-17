@@ -21,8 +21,8 @@ function Footer() {
                     <div className='flex items-center py-2 gap-2'>
                         <div><InstagramIcon sx={{fontSize: 15}}/></div>
                         <NavLink to={"https://facebook.com/profile/"}><FacebookOutlinedIcon sx={{fontSize: 15}} /></NavLink>
-                        <div><Xicon sx={{fontSize: 13}} /></div>
-                        <div><YoutubeIcon sx={{fontSize: 17}} /></div>
+                        <div><XIcon sx={{fontSize: 13}} /></div>
+                        <div><YouTubeIcon sx={{fontSize: 17}} /></div>
 
                     </div>
                 </div>
@@ -53,7 +53,7 @@ function Footer() {
                     <h2 className='font-bold py-2'>Contact</h2>
                     <ul>
                         <li className="text-sm text-[#000]/40 font-semibold">Email: support@meedahcakes.com</li>
-                        <li className="text-sm text-[#000]/40 font-semibold">Phone: +1 (666) 123-4567</li>
+                        <li className="text-sm text-[#000]/40 font-semibold">Phone: +234 (907) 453-4049</li>
                         <li className="text-sm text-[#000]/40 font-semibold">Address: 123 Market Street, Ilorin, Nigeria</li>
                     </ul>
                 </div>
