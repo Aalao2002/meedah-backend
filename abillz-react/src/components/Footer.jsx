@@ -1,8 +1,8 @@
 import React from 'react';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
-import YoutubeIcon from '@mui/icons-material/Youtube';
-import Xicon from '@mui/icons-material/X';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import XIcon from '@mui/icons-material/X';
 import { NavLink } from 'react-router-dom';
 
 
