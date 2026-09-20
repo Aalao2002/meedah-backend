@@ -16,8 +16,4 @@ RUN php artisan config:clear
 
 EXPOSE 8000
 
-<<<<<<< HEAD
 CMD php artisan serve --host=0.0.0.0 --port=8000
-=======
-CMD php artisan serve --host=0.0.0.0 --port=8000
->>>>>>> a425112c73c6b4b5c3923015241da66f88fb91a0
