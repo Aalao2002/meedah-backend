@@ -3,7 +3,7 @@
  return [
     'paths' => ['api/*', 'sanctum/crsf-cookie'],
     'allowed_methods' => ['*'],
-    'allowed_origins' => ['http://localhost:3000', 'http://172.20.10.4:3000', 'http://172.20.10.4:3001'],
+    'allowed_origins' => ['https://meedahbakes.netlify.app'],
     'allowed_origin_patterns' => [],
     'allowed_headers' => ['*'],
     'exposed_headers' => [],
