@@ -3,7 +3,7 @@ import Notfound from './pages/Notfound';
 import GuestLayout from './components/GuestLayout';
 import DefaultLayout from './components/DefaultLayout';
 import ProtectedRoute from './components/ProtectedRoute';
-import Cart from './pages/cart';
+import Cart from './pages/Cart';
 import Shop from './pages/Shop';
 import Search from './pages/Search';
 import Checkout from './pages/Checkout';
