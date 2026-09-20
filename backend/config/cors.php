@@ -1,13 +1,16 @@
 <?php
 
- return [
-    'paths' => ['api/*', 'sanctum/crsf-cookie'],
+return [
+    'paths' => ['api/*', 'sanctum/csrf-cookie'],
     'allowed_methods' => ['*'],
-    'allowed_origins' => ['https://meedahbakes.netlify.app'],
-    'allowed_origin_patterns' => [],
+    'allowed_origins' => [
+        'http://localhost:3000',
+        'https://meedahbakes.vercel.app',
+        'https://meedahbakes.netlify.app'
+    ],
+    'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'],
     'exposed_headers' => [],
     'max_age' => 0,
-    'support_credentials' => true,
-    
-    ];
+    'supports_credentials' => false,
+];
