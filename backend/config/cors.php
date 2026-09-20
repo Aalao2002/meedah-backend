@@ -5,8 +5,7 @@ return [
     'allowed_methods' => ['*'],
     'allowed_origins' => [
         'http://localhost:3000',
-        'https://meedahbakes.vercel.app',
-        'https://meedahbakes.netlify.app'
+        env('FRONTEND_URL')
     ],
     'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'],
