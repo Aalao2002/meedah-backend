@@ -37,7 +37,7 @@ return [
         'api_key' => env('CLOUDINARY_API_KEY'),
     ],
     'frontend' => [
-        'url' => env('FRONTEND_URL', 'http://localhost:3000'),
+        'url' => env('FRONTENDURL', 'http://localhost:3000'),
     ],
     'slack' => [
         'notifications' => [
