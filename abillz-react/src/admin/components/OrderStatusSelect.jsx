@@ -9,6 +9,8 @@ const STATUS_STYLES = {
     delivered: "bg-green-100 text-green-700 border-green-200",
 };
 
+const API_URL = import.meta.env.VITE_API_URL;
+
 function OrderStatusSelect({ order, token, onStatusChange }) {
     const [updating, setUpdating] = useState(false);
 
@@ -16,7 +18,7 @@ function OrderStatusSelect({ order, token, onStatusChange }) {
         const newStatus = e.target.value;
         setUpdating(true);
         try {
-            const res = await fetch(`http://172.20.10.4:8000/api/all-orders/${order.id}`, {
+            const res = await fetch(`${API_URL}/all-orders/${order.id}`, {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json",
