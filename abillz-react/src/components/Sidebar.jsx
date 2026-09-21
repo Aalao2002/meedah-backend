@@ -8,13 +8,14 @@ import LogoutOutlined from '@mui/icons-material/LogoutOutlined';
 import AllInboxOutlinedIcon from '@mui/icons-material/AllInboxOutlined' 
 import LocationOnOutlined from '@mui/icons-material/LocationOnOutlined';
 
+const API_URL = import.meta.env.VITE_API_URL;
 
 function Sidebar() {
     const { user, token, setToken, setUser } = useContext(StateContext);
 
     async function handleLogout() {
         try{
-            await fetch('http://localhost:8000/api/logout', {
+            await fetch(`${API_URl}/logout`, {
             method: "POST",
             headers: {
                 Authorization: `Bearer ${token}`
