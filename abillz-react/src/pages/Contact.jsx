@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+const API_URL = import.meta.env.VITE_API_URL;
 function Contact() {
     const [ message, setMessage ] = useState("");
     const [ loading, setLoading ] = useState(false);
@@ -18,7 +19,7 @@ function Contact() {
         setLoading(true)
         console.log(formData)
         try {
-            const res = await fetch('http://172.20.10.4:8000/api/contact',{
+            const res = await fetch(`${API_URL}/contact`,{
                 method: "POST",
                 headers: {
                     'Accept' : 'application/json',
