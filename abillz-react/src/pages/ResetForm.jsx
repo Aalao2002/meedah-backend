@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useParams, useSearchParams, useNavigate, Link } from "react-router-dom";
 
-const API_BASE = "http://172.20.10.4:8000/api";
+const API_BASE = import.meta.env.VITE_API_URL;
 
 export default function ResetForm() {
   const { token } = useParams();
